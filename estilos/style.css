@@ -6,6 +6,10 @@
     font-weight: normal;
 }
 
+#text-element {
+    font-family: 'idroid', 'cursive';
+  }
+
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
 :root{
