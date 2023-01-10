@@ -4,12 +4,8 @@
     font-family: 'idroid';
     src: url('fontes/idroid.otf') format('opentype');
     font-weight: normal;
+    font-style: normal;
 }
-
-#text-element {
-    font-family: 'idroid', 'cursive';
-  }
-
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
 :root{
@@ -21,7 +17,7 @@
     --cor5: #063d1e;
     --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
     --fonte-destaque: 'Bebas Neue', 'cursive';
-    --fonte-android: 'idroid', 'cursive';
+    --fonte-android: 'idroid';
 } 
 *{
     margin: 0px;
