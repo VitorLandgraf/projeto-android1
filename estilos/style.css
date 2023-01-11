@@ -26,9 +26,7 @@ body {
     background-color: var(--cor0);
     font-family: var(--fonte-padrao);
 }
-.android {
-    font-family: 'idroid', 'cursive';
-}
+
 
 header {
     background-image: linear-gradient(to bottom, var(--cor3), var(--cor5)) ;
@@ -95,6 +93,11 @@ main h2 {
     background-image: linear-gradient(to right, var(--cor1), transparent);
     text-indent: 8px;
 }
+
+.android {
+    font-family: 'idroid', 'cursive';
+}
+
 main p{
     margin: 15px 0px;
     text-align: justify;
