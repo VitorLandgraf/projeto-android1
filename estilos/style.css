@@ -27,10 +27,6 @@ body {
     font-family: var(--fonte-padrao);
 }
 
-#fonte-destaque{
-    font-family: 'Bebas Neue', 'cursive';
-} 
-
 header {
     background-image: linear-gradient(to bottom, var(--cor3), var(--cor5)) ;
     min-height: 150px;
@@ -44,6 +40,9 @@ header > h1  {
     margin-bottom: 20px;
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.267);
 }
+#fonte-destaque{
+    font-family: Bebas Neue, 'cursive';
+} 
 header > p{
     font-family: var(--fonte-padrao);
     font-size: 1.2em;
