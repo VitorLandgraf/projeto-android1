@@ -1,7 +1,12 @@
 @charset "UTF-8"; 
 
-@import url('idroid.otf');
-  
+@font-face {
+    font-family: 'idroid';
+    src: url('../idroid.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 
 :root{
     --cor0: #c5ebd6; 
