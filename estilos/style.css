@@ -7,6 +7,7 @@
     font-style: normal;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
 :root{
     --cor0: #c5ebd6; 
@@ -16,7 +17,6 @@
     --cor4: #1a5c37;
     --cor5: #063d1e;
     --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
-    --fonte-destaque: 'Bebas Neue', 'cursive';
 } 
 *{
     margin: 0px;
@@ -27,6 +27,9 @@ body {
     font-family: var(--fonte-padrao);
 }
 
+#fonte-destaque{
+    font-family: 'Bebas Neue', 'cursive';
+} 
 
 header {
     background-image: linear-gradient(to bottom, var(--cor3), var(--cor5)) ;
@@ -36,7 +39,6 @@ header {
 }
 header > h1  {
     color: white;
-    font-family: var(--fonte-destaque);
     font-weight: normal;
     font-size: 3em;
     margin-bottom: 20px;
