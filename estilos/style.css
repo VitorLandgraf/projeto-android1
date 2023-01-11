@@ -41,7 +41,7 @@ header > h1  {
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.267);
 }
 #fonte-destaque{
-    font-family: Bebas Neue, 'cursive';
+    font-family: 'Bebas Neue', 'cursive';
 } 
 header > p{
     font-family: var(--fonte-padrao);
